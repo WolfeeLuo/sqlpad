@@ -67,6 +67,7 @@ async function getSchemaInfo(req, res) {
                 column_name: column.name,
                 data_type: column.dataType,
                 column_description: column.description,
+                column_comment: column.comment,
               });
             });
           }

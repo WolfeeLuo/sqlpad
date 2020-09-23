@@ -89,7 +89,7 @@ function SchemaSidebar({ connectionId }: any) {
       );
     }
     if (row.type === 'column') {
-      const secondary = [<span key="colType"> {row.dataType}</span>];
+      const secondary = [<span key="colType"> {row.dataType} {row.comment}</span>];
 
       if (row.description) {
         const description = (
