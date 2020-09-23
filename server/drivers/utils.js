@@ -22,6 +22,7 @@ function getTables(schemaTableColumnRows) {
             name: row.column_name,
             description: row.column_description,
             dataType: row.data_type,
+            comment: row.column_comment,
           };
         }),
       };

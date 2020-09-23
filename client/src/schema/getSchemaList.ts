@@ -41,6 +41,7 @@ export default function getSchemaList(schemaInfo: any) {
             name: column.column_name,
             description: column.column_description,
             dataType: column.data_type,
+            comment: column.column_comment,
             tableName,
             schemaName,
             id: columnId,
